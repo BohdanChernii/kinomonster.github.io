@@ -1,0 +1,184 @@
+html, body {
+  height: 100%;
+}
+
+
+.header a,h1 a:hover {
+  color:#f0ad4e;
+  text-decoration: none;
+}
+ h1>a{
+  color: #f0ad4e;;
+}
+.header{
+ margin-left:6.7%;
+}
+.header h1{
+  letter-spacing: 15px;
+  font-size:  300%;
+
+}
+
+.header p {
+
+  color:white !important;
+  font-size: 90%;
+  letter-spacing: 3px;
+}
+
+.nav-pills>li.active>a, .nav-pills  li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #F0AD4E;
+}
+
+.nav-pills>li>a:hover{
+  color: #fff;
+  background-color: #F0AD4E;
+}
+
+.nav-pills>li>a{
+  color: #fff;
+}
+
+.navbar-inverse{
+  padding:1%;
+  border-radius: 0;
+}
+
+.clear{
+  clear:both;
+  height: 63px;
+}
+
+.wraper{
+  min-height:100%;
+}
+.films_block{
+  text-align: center;
+}
+.films_block img{
+  margin-bottom: 5%;
+  border-radius: 5px;
+  border:5px solid #dad7d5;
+}
+
+.films-lable{
+  color:#F0AD4E;
+}
+
+.margin-8{
+  margin-top: 8%;
+}
+
+.panel{
+  border:none;
+}
+
+.panel-body {
+  background-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading {
+  background-color: #F0AD4E;
+  color:white;
+  border-color:transparent;
+}
+
+.sitebar-header {
+  font-size: 120%;
+  letter-spacing:2px;
+}
+
+.form-control{
+  border-radius: 5px;
+}
+
+.input-sm{
+  font-size: 14px;
+}
+
+.btn-warning{
+  background-color: #F0AD4E;
+}
+.panel-body p{
+  color:#B7BAB9;
+}
+.panel-body {
+  background-color:#F7FAF7 ;
+}
+
+
+.list-group-item{
+  color: #8a6d3b;
+  background-color: #f9f9f9;
+}
+.list-group-item{
+  border-color: #F3F6F3;
+}
+
+span.badge{
+  background-color: #000000;
+}
+
+footer{
+  background-color: #222;
+  padding:17px 0 18px 0;
+  border-top: 1px solid #000;
+}
+footer a,footer a:hover{
+  color:#F0AD4E;
+  text-decoration: none;
+}
+
+
+
+
+
+.info-block{
+  font-size:120%;
+}
+.info-block .badge{
+  font-size:80%;
+}
+.info-block span{
+  margin-right: 3%;
+}
+.panel-body {
+  color:#A0A2A1;
+}
+
+.table tbody>tr>td.vert-align{
+  vertical-align: middle;
+}
+
+textarea.form-control{
+  height:200px;
+}
+
+@media (max-width: 767px) {
+  .header{
+    margin-left: 0;
+  }
+	.nav-pills>li {
+		float: none;
+	}
+
+	.nav-pills {
+  text-align: center;
+	}
+  .row h1{
+    font-size: 280%;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  .row  p {
+      font-size: 80%;
+      letter-spacing: 5px;
+      text-align: center;
+    }
+  .col-sm-9 p{
+      letter-spacing:0;
+      font-size: 140%;
+      text-align: left;
+  }
+}
